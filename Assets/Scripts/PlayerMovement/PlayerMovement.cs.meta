@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 16bb35f77e83c8a46bc13a529c2c4e34
+timeCreated: 1480485908
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - anim: {instanceID: 0}
+  - harp: {fileID: 114000013725184872, guid: 1c78a0a4ee88d104f99b596e91a380e2, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
