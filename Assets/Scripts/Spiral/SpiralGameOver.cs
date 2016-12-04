@@ -25,7 +25,7 @@ public class SpiralGameOver : MonoBehaviour {
 
         if (obj.gameObject.tag == "Player") {
             spiralFX.Play();
-            manager.LoadLevel("Prologue");
+            manager.QuitRequest();
             }
 
     }
