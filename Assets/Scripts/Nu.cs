@@ -8,6 +8,7 @@ public class Nu : MonoBehaviour {
     public float offset = 0.005f;
     public GameObject player;
     public int hp = 3;
+    public GameObject spiral;
 
     Color color;
 
@@ -24,7 +25,7 @@ public class Nu : MonoBehaviour {
 	}
 
     void nuWave() {
-        nuPos += Vector3.up*offset;
+        nuPos = Vector3.MoveTowards(nuPos, spiral.transform.position, 0.05f);
         transform.position = nuPos;
         nu.GetComponent<SpriteRenderer>().color = color;
     }
